@@ -1,0 +1,67 @@
+#box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: cadetblue;
+    padding-bottom: 10px;
+    list-style: none;
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+input {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sign-up {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sign-up:hover {
+    color: aqua;
+    transition: 0.5s;
+    background-color: black;
+    cursor: pointer;
+}
+
+#btn-2 {
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 25px;
+    background-color: aliceblue;
+    margin-left: 120px;
+}
+
+#btn-2:hover {
+    color: aqua;
+    transition: 0.5s;
+    background-color: black;
+
+}

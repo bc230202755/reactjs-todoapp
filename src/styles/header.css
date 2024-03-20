@@ -1,0 +1,58 @@
+#header {
+
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.list {
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list:hover {
+    color: aqua;
+    transition: 0.5s;
+    background-color: black;
+}
+
+#mybtn {
+    color: red;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mybtn:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+h2 {
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+h2:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+    cursor: pointer;
+    color: aqua;
+    background-color: #666666;
+}
